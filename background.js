@@ -44,7 +44,7 @@ function fetchAndUpdatePriceETH() {
         }
         chrome.browserAction.setBadgeText({text: displayPrice});
         setTimeout(() => {
-            chrome.browserAction.setBadgeBackgroundColor({ "color": [39, 120, 237, 1] });
+            chrome.browserAction.setBadgeBackgroundColor({ "color": [12, 73, 33, 1] });
         }, 1000)
     })
 }
